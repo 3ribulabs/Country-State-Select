@@ -118,7 +118,7 @@ function CountryStateSelect(options) {
       html = '<input id="' + state_id + '" name="' + state_name + '" class="' + state_class + '" type="text"  type="text" value="" >';
     } else {
       html = '<select id="' + state_id + '" name="' + state_name + '" class="' + state_class + '" >';
-      html += '<option>'+ find_select_option_text('state') +'</option>'
+      html += '<option>Select State</option>'
 
       for (i = 0; i < data.length; i++) {
         html += '<option value='+data[i][0]+'>' + data[i][1] + '</option>';
